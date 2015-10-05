@@ -1,4 +1,4 @@
-## Protocols & Delegats
+## Protocols & Delegates
 
 Protocols and delegates allow objects to do things on belahalf (or in response) of other objects. In most simple cases you'll probably want your view controller to handle delegate methods of other objects you create (like the `Person` object we created in the workshop, or the `UITextField` object from our storyboard). 
 
