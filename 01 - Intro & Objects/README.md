@@ -1,57 +1,58 @@
-## Protocols & Delegates
+##Into To Swift
 
-Protocols and delegates allow objects to do things on belahalf (or in response) of other objects. In most simple cases you'll probably want your view controller to handle delegate methods of other objects you create (like the `Person` object we created in the workshop, or the `UITextField` object from our storyboard). 
+####Types Variables & Constants
+
+Variables are created with the the keyword var. You then assign them a name and a value.
+
+```swift
+var name = "Jon"
+var age = 10
+```
+
+Swift uses ‘Type Inference’ to infer what type of object a variable is. The example below is is exactly the same as above, only here we’re stating the exact type of. When the type is obvious (i.e. it’s obvious “Jon” is a string and 10 is an int) we don't have to do this and the above example is preferred.
+
+```swift
+var name: String = "Jon"
+var age: Int = 10
+```
+
+**Tip**: Whenever you see a semicolon, read it as “is of type”.  You’ll see this when working with optionals and passing values into methods. So the example above would read as “The variable name is of type string and is equal to Jon”. 
+
+We can replace the keyword var with let to make something a constant. They we then use them the same way as variable, only a constant (as the name implies) cannot be changed once it is set. 
 
 ___
 
-####Setting Up The Object
-Firstly you need to design the protocol for your object. The protocol is the first part of the "contract" here you define the methods the delegate will perform on behalf of the object in question (in our example the `Person` object). It will look something like this:
+####Functions/Methods
+
+Functions work similarly to what we’ve seen in the past. They are named blocks of code that we can call over and over to perform a task. They are declared with the word func the name we want to give the function, a set of brackets and then a set of curly braces which contains whatever we want to function to do. A simple function looks like this. 
 
 ```swift
-protocol PersonDelegate {
-    func personHadBirthday()
+func sayHello() {
+    print("hello")
 }
 ```
-It starts with the keyword `protocol` followed by the name (usually the objects/class name appended with "Delegate"). Then a list of methods. The only difference here is that we don't write the method body, just the name and set of brackets. A protocol can have any number of methods depending on our needs. 
 
-Next we set up a property on the object to store a reference to its delegate (marked as an optional with the question mark), something like:
-
-```swift
-var delegate: PersonDelegate?
-```
-Finally, whenever we want the delegate to perform something we call the method. In this case it would be:
+To call a function we simply type its name followed by a set of brackets.
 
 ```swift
-delegate?.personHadBirthday()
+sayHello()
 ```
 
-This is all thats needed in the object class itself.
-___
-
-####Handling The Delegate Method
-Back in our view controller class we can change the opening line of the class deffinition to this:
+We can add flexibility to our functions by allowing them to take arguments (or parameters) and using them inside our functions.  This function now accepts an argument of “name” which is of type String. All this means is that when we call this function its expecting a String to be passed to it which it can use, and it will be called name.
 
 ```swift
-class ViewController: UIViewController, PersonDelegate {
-```
-This simply lets the class know that it is going to implement the delegate methods we defined in the `Person` class protocol.
-
-**Note**: At this point you can expect to see an error: "Type 'ViewController' does not conform to protocol 'PersonDelegate'". This is simply saying that the `ViewContoller` class hasn't implemented the `personHadBirthday()` function. So somewhere in your view controller calss, we need to do so:
-
-```swift 
-func personHadBirthday() {
+func sayHello(name: String) {
+    print("hello my name is \(name)")
 }
 ```
-From now on, when we create objects, we can set its delegate just like any other property. So in the case of our person class it might look somethign like this:
 
-```swift 
-var me = Person(name: "Kyle", age: 20)
-me.delegate = self
-```
-Creating a variable of the object is no different to before, we then set its delegat property (in this case) to self. Meaning that this view controller is now in the objects delegate. 
+**Note**: I’m using string interpolation to use the name value within a String.
 
+The call to the function would now look something like this.
 
+sayHello("Jon")
 
+**Note**: “Functions” and “Methods” are (for all intensive purposes) are the same thing. The difference being that a function becomes a method when it is contained within a class. They are written and perform in exactly the same way. 
 
 
 
