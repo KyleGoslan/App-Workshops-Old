@@ -36,7 +36,7 @@ class ViewController: UIViewController, PersonDelegate {
 ```
 This simply lets the class know that it is going to implement the delegate methods we defined in the `Person` class protocol.
 
-Note: At this point you can expect to see an error: "Type 'ViewController' does not conform to protocol 'PersonDelegate'". This is simply saying that the `ViewContoller` class hasn't implemented the `personHadBirthday()` function. So somewhere in your view controller calss, we need to do so:
+**Note**: At this point you can expect to see an error: "Type 'ViewController' does not conform to protocol 'PersonDelegate'". This is simply saying that the `ViewContoller` class hasn't implemented the `personHadBirthday()` function. So somewhere in your view controller calss, we need to do so:
 
 ```swift 
 func personHadBirthday() {
