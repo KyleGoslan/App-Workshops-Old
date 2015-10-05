@@ -16,6 +16,12 @@ Next we set up a property on the object to store a reference its delegate (marke
 ```swift
 var delegate: PersonDelegate?
 ```
+Finally, whenever we want the delegate to perform something we call the method. In this case it would be:
+
+```swift
+delegate?.personHadBirthday()
+```
+
 This is all thats needed in the object class itself.
 
 Back in our view controller class we can change the opening line of the class deffinition to this:
@@ -28,7 +34,7 @@ This simply lets the class know that it is going to implement the delegate metho
 Note: At this point you can expect to see an error: "Type 'ViewController' does not conform to protocol 'PersonDelegate'". This is simply saying that the `ViewContoller` class hasn't implemented the `personHadBirthday()` function. So somewhere in your view controller calss, we need to do so:
 
 ```swift 
-func birthdayCompleted() {
+func personHadBirthday() {
 }
 ```
 From now on, when we create objects, we can set its delegate just like any other property. So in the case of our person class it might look somethign like this:
