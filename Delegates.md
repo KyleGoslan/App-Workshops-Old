@@ -23,11 +23,14 @@ Back in our view controller class we can change the opening line of the class de
 ```swift
 class ViewController: UIViewController, PersonDelegate {
 ```
-Note: At this point you can expect to see an error: "Type 'ViewController' does not conform to protocol 'PersonDelegate'". This is simply saying that the `ViewContoller` class hasnt implemented the `personHadBirthday()` function.
-
-
 This simply lets the class know that it is going to implemnt the delegate methods we defined in the `Person` class protocol.
 
+Note: At this point you can expect to see an error: "Type 'ViewController' does not conform to protocol 'PersonDelegate'". This is simply saying that the `ViewContoller` class hasn't implemented the `personHadBirthday()` function. So somewhere in your view controller calss, we need to do so:
+
+```swift 
+func birthdayCompleted() {
+}
+```
 From now on, when we create objects, we can set its delegate just like any other property. So in the case of our person class it might look somethign like this:
 
 ```swift 
@@ -35,9 +38,6 @@ var me = Person(name: "Kyle", age: 2)
 me.delegate = self
 ```
 Creating a variable of the object is no different to before, we then set its delegat property (in this case) to self. Meaning that this view controller is now in the objects delegate. 
-
-
-
 
 
 
