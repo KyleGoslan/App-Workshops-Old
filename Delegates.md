@@ -2,6 +2,8 @@
 
 Protocols and delegates allow objects to do things on belahalf (or in response) of other objects. In most simple cases you'll probably want your view controller to handle delegate methods of other objects you create (like the `Person` object we created in the workshop, or the `UITextField` object from our storyboard). 
 
+___
+
 ####Setting Up The Object
 Firstly you need to design the protocol for your object. The protocol is the first part of the "contract" here you define the methods the delegate will perform on behalf of the object in question (in our example the `Person` object). It will look something like this:
 
@@ -12,7 +14,7 @@ protocol PersonDelegate {
 ```
 It starts with the keyword `protocol` followed by the the name (usually the objects/class name appended with "Delegate"). Then a list of methods. The only difference here is that we don't write the method body, just the name and set of brackets. A protocol can have any number of methods depending on our needs. 
 
-Next we set up a property on the object to store a reference its delegate (marked as an optional with the question mark), something like:
+Next we set up a property on the object to store a reference to its delegate (marked as an optional with the question mark), something like:
 
 ```swift
 var delegate: PersonDelegate?
@@ -24,6 +26,7 @@ delegate?.personHadBirthday()
 ```
 
 This is all thats needed in the object class itself.
+___
 
 ####Handling The Delegate Method
 Back in our view controller class we can change the opening line of the class deffinition to this:
