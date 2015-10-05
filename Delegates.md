@@ -18,6 +18,16 @@ var delegate: PersonDelegate?
 ```
 This is all thats needed in the object class itself.
 
+Back in our view controller class we can change the opening line of the class deffinition to this:
+
+```swift
+class ViewController: UIViewController, PersonDelegate {
+```
+Note: At this point you can expect to see an error: "Type 'ViewController' does not conform to protocol 'PersonDelegate'". This is simply saying that the `ViewContoller` class hasnt implemented the `personHadBirthday()` function.
+
+
+This simply lets the class know that it is going to implemnt the delegate methods we defined in the `Person` class protocol.
+
 From now on, when we create objects, we can set its delegate just like any other property. So in the case of our person class it might look somethign like this:
 
 ```swift 
