@@ -54,6 +54,69 @@ sayHello("Jon")
 
 **Note**: “Functions” and “Methods” are (for all intensive purposes) are the same thing. The difference being that a function becomes a method when it is contained within a class. They are written and perform in exactly the same way. 
 
+___
+
+####Classes
+
+Classes are the blueprints for our objects. When we define a class we list all the peices of info an object needs - these are its properties, and and defien all the things that objects does - these are its methods. 
+
+Properties are nothing more than variables, and methods are nothing more than functions. 
+
+```swift
+class Person {
+    var name = "Jon Doe"
+    var age = 21
+    
+    func sayhello() {
+        print("Hello World")
+    }
+}
+```
+This is about the most basic a class can get. It has two properties (name and age) and a method to say hello. 
+
+We can create "instances" of this class now like this: 
+```swift
+var someone = Person()
+```
+
+And access its properties and methods like this:
+
+```swift
+someone.name
+someone.age
+somone.sayHello()
+```
+
+We can even reassign values to these (provided they are declared with the `var` keyword (as opposed to the `let` constant keyword). 
+
+```swift 
+someone.name = "Chris"
+```
+
+However, it makes more sense for use to specify these values when we create an instance of this object. We can do this with a custom initializer. A better version of this Person calss might look something like this. 
+
+```swift
+class Person {
+    var name: String
+    var age: Int
+    
+    init(name: String, age: Int) {
+        self.name = name
+        self.age = age
+    }
+    
+    func sayhello() {
+        print("Hello World")
+    }
+}
+```
+
+
+
+
+
+
+
 
 
 
