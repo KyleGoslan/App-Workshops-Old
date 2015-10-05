@@ -111,7 +111,13 @@ class Person {
 }
 ```
 
+`init` is a special type of function. It gets called when an objects is initialized. Now when we create an instance of this object, we can pass in its name and age. Here we have to use the `self` keyword to distinguish between the value passed in and the objects property. 
 
+Now when we create a `Person` it will look like this:
+
+```swift
+var someone = Person(name:"Chris", age: 21)
+```
 
 
 
