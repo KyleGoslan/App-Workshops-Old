@@ -2,6 +2,7 @@
 
 Protocols and delegates allow objects to do things on belahalf (or in response) of other objects. In most simple cases you'll probably want your view controller to handle delegate methods of other objects you create (like the `Person` object we created in the workshop, or the `UITextField` object from our storyboard). 
 
+####Setting Up The Object
 Firstly you need to design the protocol for your object. The protocol is the first part of the "contract" here you define the methods the delegate will perform on behalf of the object in question (in our example the `Person` object). It will look something like this:
 
 ```swift
@@ -24,6 +25,7 @@ delegate?.personHadBirthday()
 
 This is all thats needed in the object class itself.
 
+####Handling The Delegate Method
 Back in our view controller class we can change the opening line of the class deffinition to this:
 
 ```swift
