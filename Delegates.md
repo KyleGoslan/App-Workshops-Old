@@ -12,7 +12,7 @@ protocol PersonDelegate {
     func personHadBirthday()
 }
 ```
-It starts with the keyword `protocol` followed by the the name (usually the objects/class name appended with "Delegate"). Then a list of methods. The only difference here is that we don't write the method body, just the name and set of brackets. A protocol can have any number of methods depending on our needs. 
+It starts with the keyword `protocol` followed by the name (usually the objects/class name appended with "Delegate"). Then a list of methods. The only difference here is that we don't write the method body, just the name and set of brackets. A protocol can have any number of methods depending on our needs. 
 
 Next we set up a property on the object to store a reference to its delegate (marked as an optional with the question mark), something like:
 
@@ -45,11 +45,10 @@ func personHadBirthday() {
 From now on, when we create objects, we can set its delegate just like any other property. So in the case of our person class it might look somethign like this:
 
 ```swift 
-var me = Person(name: "Kyle", age: 2)
+var me = Person(name: "Kyle", age: 20)
 me.delegate = self
 ```
 Creating a variable of the object is no different to before, we then set its delegat property (in this case) to self. Meaning that this view controller is now in the objects delegate. 
-
 
 
 
