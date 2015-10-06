@@ -9,8 +9,8 @@ I've put together this repo as a resource for you to be able to review what we'v
 ####Why GitHub?
 I've chosen to do it in the format for several reasons:
 + It gets you on github.
-+ It makes it easy to correct errors (my time is limited, so I write these fast). 
-+ It makes it easy to get syntax highlighting on code snippets.  
++ It makes it easy to correct errors (time is limited, so I tend write these fast).
++ Syntax highlighting on code snippets.  
 + Easier for you to copy/paste...even though you would never do that ;). 
 + I'm hoping that you guys can fork, contribute and send me pull requests to the documentation.  
 + You can create issues to ask questions. That way everyone can see them.  
