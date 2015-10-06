@@ -18,3 +18,8 @@ I've chosen to do it in the format for several reasons:
 ####Questions/Errors
 When you're looking at the repo, on the right hand side you'll see "Issues". I want to encourage you to use this as a way to ask questions and notify me of typos or errors. When you enter the issues page you can create a new issue in the upper right. This is essentially just like posting a comment. One thing that would be helpful is that you apply a relevant label. This is done on the right, eg "Question" or "Bug".
 
+####Sample Files & Projects
+Where applicable, I'll post files and projects. However, I'll try to refrain from posting full projects unless I feel it's essential. I'll always lean towards posting "completed" examples of files we were working on in the workshops. These will always be in an "Examples" directory for the relevant workshop. For example the "02 - Delegates/Examples" directory has a finishes example of the `Person.swift` file and the `ViewController.swift` file for your reference. 
+
+
+
