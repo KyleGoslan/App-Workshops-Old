@@ -13,3 +13,8 @@ Remember variables are declared with `var` and constants are declared with `let`
 We looked at writing basic functions and passing arguments to these functions. 
 
 Finally we looked at writing our own classes. This is how we create custom objects. Classes are blueprints for objects that we want to create. Objects can have data associated with them (variables/constants), known as properties and can perform actions, known as methos (functions).
+
+####Objectives
++ Introduction to the Swift syntax.	
++ Introduction to objects and object oriented programming (oop).	
++ Creating a class to create custom objects.	
