@@ -2,7 +2,9 @@
 
 ####Contents
 -[Variables & Constants](https://github.com/KyleGoslan/App-Workshops/blob/master/01%20-%20Intro%20%26%20Objects/Variables-And-Constants.md)
+
 -[Functions & Methods](https://github.com/KyleGoslan/App-Workshops/blob/master/01%20-%20Intro%20%26%20Objects/Functions-And-Methods.md)
+
 -[Classes](https://github.com/KyleGoslan/App-Workshops/blob/master/01%20-%20Intro%20%26%20Objects/Classes.md)
 
 ####Summary
