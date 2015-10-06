@@ -8,6 +8,9 @@ I've chosen to do it in the format for several reasons:
 + It makes it easy to correct errors (my time is limited, so I write these fast). 
 + It makes it easy to get syntax highlighting on code snippets.  
 + Easier for you to copy/paste...even though you would never do that ;). 
-+ I'm hhoping that you guys can fork, contribute and send me pull requests to the documentation.  
++ I'm hoping that you guys can fork, contribute and send me pull requests to the documentation.  
 + You can create issues to ask questions. That way everyone can see them.  
+
+####Questions/Errors
+When you're looking at the repo, on the right hand side you'll see "Issues". I want to encourage you to use this as a way to ask questions and notify me of typos or errors. When you enter the issues you can create a new issue in the upper right. This is essentially just like posting a comment. One thing that would be helpful is that you apply a relevant label. This is done on the right, eg "Question" or "Bug".
 
