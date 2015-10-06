@@ -1,4 +1,4 @@
-## App-Workshops
+## App Workshops
 
 I've put together this repo as a resource for you to be able to review what we've discussed in the workshops. The documentation here is in no way designed to replace the workshops, and you may struggle to understand the notes alone without attending the workshops.
 
