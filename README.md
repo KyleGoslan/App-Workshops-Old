@@ -2,6 +2,10 @@
 
 I've put together this repo as a resource for you to be able to review what we've discussed in the workshops. The documentation here is in no way designed to replace the workshops, and you may struggle to understand the notes alone without attending the workshops.
 
+####Contents
++ [Intro](https://github.com/KyleGoslan/App-Workshops/tree/master/01%20-%20Intro%20%26%20Objects)  
++ [Delegates](https://github.com/KyleGoslan/App-Workshops/tree/master/02%20-%20Delegates)  
+
 ####Why GitHub?
 I've chosen to do it in the format for several reasons:
 + It gets you on github.
