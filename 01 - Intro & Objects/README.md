@@ -1,9 +1,9 @@
 ##Into To Swift
 
 ####Contents
-[Variables & Constants](https://github.com/KyleGoslan/App-Workshops/blob/master/01%20-%20Intro%20%26%20Objects/Variables-And-Constants.md)
-[Functions & Methods](https://github.com/KyleGoslan/App-Workshops/blob/master/01%20-%20Intro%20%26%20Objects/Functions-And-Methods.md)
-[Classes](https://github.com/KyleGoslan/App-Workshops/blob/master/01%20-%20Intro%20%26%20Objects/Classes.md)
+-[Variables & Constants](https://github.com/KyleGoslan/App-Workshops/blob/master/01%20-%20Intro%20%26%20Objects/Variables-And-Constants.md)
+-[Functions & Methods](https://github.com/KyleGoslan/App-Workshops/blob/master/01%20-%20Intro%20%26%20Objects/Functions-And-Methods.md)
+-[Classes](https://github.com/KyleGoslan/App-Workshops/blob/master/01%20-%20Intro%20%26%20Objects/Classes.md)
 
 ####Summary
 We looked at creating basic variables in Swift and types. For example Strings and Ints. Swift uses "type inference" to decide what type a variable is. Because Swift is strongly typed language once a variables type is set, it must remain of that type for its lifespan. 
