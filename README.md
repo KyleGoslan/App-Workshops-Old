@@ -12,5 +12,5 @@ I've chosen to do it in the format for several reasons:
 + You can create issues to ask questions. That way everyone can see them.  
 
 ####Questions/Errors
-When you're looking at the repo, on the right hand side you'll see "Issues". I want to encourage you to use this as a way to ask questions and notify me of typos or errors. When you enter the issues you can create a new issue in the upper right. This is essentially just like posting a comment. One thing that would be helpful is that you apply a relevant label. This is done on the right, eg "Question" or "Bug".
+When you're looking at the repo, on the right hand side you'll see "Issues". I want to encourage you to use this as a way to ask questions and notify me of typos or errors. When you enter the issues page you can create a new issue in the upper right. This is essentially just like posting a comment. One thing that would be helpful is that you apply a relevant label. This is done on the right, eg "Question" or "Bug".
 
