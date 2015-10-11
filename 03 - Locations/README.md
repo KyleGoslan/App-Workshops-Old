@@ -3,7 +3,7 @@
 ####Contents
 + [Reverse Geocoding]()	
 + [Placemarks]()  
-+ [Challange]()  
++ [Task]()  
 
 ####Workshop Objectives
 + Introduction to `CLLocation`, `CLGeocoder` and `CLPlacemark` objects.	
