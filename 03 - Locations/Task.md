@@ -25,7 +25,7 @@ Here we have to cast them as the type of `Float` as swift will default a decimal
 
 We need to get the values out of our sliders, so set up IBActions for each of them. Make sure you set the arguments to sender. I set the relevant property that we just set up to the value from the slider, and then use string interpolation to set the labels text value to that value. This is for my latitude slider, you should be able to figure out the other one, which is virtually identical. 
 
-[sliders-actions]: https://github.com/KyleGoslan/App-Workshops/blob/master/images/connecting-sliders.png
+[sliders-actions]: https://raw.githubusercontent.com/KyleGoslan/App-Workshops/master/images/connecting-sliders.png
 
 ```swift
 @IBAction func latSlider(sender: UISlider) {
