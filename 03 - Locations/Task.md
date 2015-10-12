@@ -46,6 +46,12 @@ The first line is creating a `CLLocation` object. Most simply, this is just an o
 
 
 ####Reverse Geocode Function
+To start using location we need to import the Core Location library. At the top of your ViewController next to the UIKit import add the following:
+
+```swift
+import CoreLocation
+``` 
+
 Where you create your `lat` and `long` variables go and create a `CLGeocoder` object as well:
 
 ```swift
