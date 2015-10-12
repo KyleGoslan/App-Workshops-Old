@@ -111,3 +111,17 @@ func reverseGeocode(location: CLLocation) {
 At this point you should be able to move your sliders around and see the values represented in your labels. When you press your button, provided you've landed on a country you should see that country name output in your console. 
 
 
+####Maps
+```swift 
+mapView.setCenterCoordinate(CLLocationCoordinate2DMake(CLLocationDegrees(lat), CLLocationDegrees(long)), animated: true)
+```
+
+
+```swift
+let annotation = MKPointAnnotation()
+annotation.coordinate = CLLocationCoordinate2DMake(CLLocationDegrees(lat), CLLocationDegrees(long))
+annotation.title = "Hey!"
+mapView.addAnnotation(annotation)
+mapView.selectAnnotation(annotation, animated: true)
+
+```
