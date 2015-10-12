@@ -24,6 +24,46 @@ It has a completion handler, formally known as a "closure" in Swift. In other la
 
 ```swift
 geocoder.reverseGeocodeLocation(location, completionHandler: {(placemarks, error) -> Void in
-	//Do whatever we need to do with either our placemarks or error. 
+	//Do whatever we need to do with either our placemarks or error...
 })
 ```
+
+More often than not, you'll probably want to check that the completion handler didn't return with an error and also has at least a place mark to work with. So a common use of this method might look something like this:
+
+```swift
+geocoder.reverseGeocodeLocation(location, completionHandler: {(placemarks, error) -> Void in
+	if error != nil {
+        //Handle the error and return (escape from) the completion block...
+        return
+    }
+    
+    if placemarks!.count > 0 {
+		//We have a placemark to work with so we can do whatever here...
+	}
+})
+```
+
+####One Georequest At A Time
+
+Whenever perform the method to geocode, this is processed on a server provided by the good folks over at Apple. It's free to do and we can do it as often as we need...within reason. Ideally we should only be sending one geocode at a time. This is to ensure that the server can get back to us quickly, and that we're not performing unnecessary requests constantly. Conveniently, our `CLGeocoder` has a boolean (true/false) property on it called `geocoding`. So we can find out if we're currently processing a request by doing something simple like this:
+
+```swift
+if !geocoder.geocoding {
+	//Not currently geocoding (note the not operator (!) at the start of the condition)...
+}
+```
+
+####Cancel A Geocode
+
+Most of the time the response from a geocode is incredibly fast as it a small amount of data that needs sent and received. But sometimes we may need to manually stop an active geocode request. This is easy to do as well:
+
+```swift 
+geocoder.cancelGeocode()
+```
+
+
+
+
+
+
+

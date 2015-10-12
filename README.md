@@ -4,7 +4,8 @@ I've put together this repo as a resource for you to be able to review what we'v
 
 ####Contents
 + [01 - Intro](https://github.com/KyleGoslan/App-Workshops/tree/master/01%20-%20Intro%20%26%20Objects)  
-+ [02 - Delegates](https://github.com/KyleGoslan/App-Workshops/tree/master/02%20-%20Delegates)  
++ [02 - Delegates](https://github.com/KyleGoslan/App-Workshops/tree/master/02%20-%20Delegates)	
++ [03 - Locations](https://github.com/KyleGoslan/App-Workshops/tree/master/03%20-%20Locations)  
 
 ####Why GitHub?
 I've chosen to do it in the format for several reasons:
