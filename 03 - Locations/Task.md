@@ -3,7 +3,7 @@
 ####Setup The UI
 First drag out two sliders and two labels onto your storyboard, One pair for each latitude and longitude. 
 
-![sliders]: (https://raw.githubusercontent.com/KyleGoslan/App-Workshops/master/images/connecting-sliders.png)
+![sliders]: (https://raw.githubusercontent.com/KyleGoslan/App-Workshops/master/images/storyboard-sliders.png)
 
 Latitude runs from -90 to 90. So select the slider and in attributes inspector, you can set the minimum and maximum values (I actually set mine to one less so -79 and 79). You can do exactly the same for the longitude slider, but -180 to 180 (again I did one less).
 
