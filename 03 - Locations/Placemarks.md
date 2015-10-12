@@ -11,7 +11,7 @@ Sometimes the location you'll geocode might not be on land, so things like count
 + `ocean`: The name of the ocean associated with the placemark.
 + `inlandWater`: The name of the inland water body associated with the placemark.
 
-As an example of how you might want to deal with this, you might do something like this:
+As an example of how you might want to deal with this, you might do:
 
 ```swift 
 if let ocean = placemark.ocean {

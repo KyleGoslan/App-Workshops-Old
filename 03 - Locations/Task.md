@@ -5,7 +5,7 @@ First drag out two sliders and two labels onto your storyboard, One pair for eac
 
 ![image](https://raw.githubusercontent.com/KyleGoslan/App-Workshops/master/images/storyboard-sliders.png)
 
-Latitude runs from -90 to 90. So select the slider and in attributes inspector, you can set the minimum and maximum values (I actually set mine to one less so -79 and 79). You can do exactly the same for the longitude slider, but -180 to 180 (again I did one less).
+Latitude runs from -90 to 90. So select the slider and in attributes inspector, you can set the minimum and maximum values (I actually set mine to one less so -89 and 89). You can do exactly the same for the longitude slider, but -180 to 180 (again I did one less).
 
 Were going to change the text of the labels to match the value of the slider, so we'll need to set up IBOutlets for each of them. Select your view controller in the storyboard and switch to the assistant editor (where we can see the storyboard and the code to go with it). Ctrl click and drag from your labels to create your outlets, something like below. 
 
