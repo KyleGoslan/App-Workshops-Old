@@ -60,6 +60,7 @@ var geocoder = CLGeocoder()
 
 The finished `reverseGeocode` function looks like this:
 
+#####Swift 1.2 (Currently in labs)
 ```swift 
 func reverseGeocode(location: CLLocation) {
     if !geocoder.geocoding {
@@ -69,7 +70,31 @@ func reverseGeocode(location: CLLocation) {
                 return
             }
             if placemarks!.count > 0 {
-                if let placemark = placemarks!.first {
+                if let placemark = placemarks!.first as? CLPlacemark {
+                    print(placemark.country)
+                }
+            } else {
+                print("Problem with the data received from geocoder")
+            }
+        })
+    } else {
+        print("Geocoder is already geocoding")
+        return
+    }
+}
+```
+
+#####Swift 2.0
+```swift 
+func reverseGeocode(location: CLLocation) {
+    if !geocoder.geocoding {
+        geocoder.reverseGeocodeLocation(location, completionHandler: {(placemarks, error) -> Void in
+            if error != nil {
+                print("Reverse geocoder failed with error" + error!.localizedDescription)
+                return
+            }
+            if placemarks!.count > 0 {
+                if let placemark = placemarks!.first as? CLPlacemark {
                     print(placemark.country)
                 }
             } else {
@@ -85,6 +110,8 @@ func reverseGeocode(location: CLLocation) {
 
 At this point you should be able to move your sliders around and see the values represented in your labels. When you press your button, provided you've landed on a country you should see that country name output in your console. 
 
+
+####Adding A Map
 
 ```swift
 myMap.setCenterCoordinate(CLLocationCoordinate2D(latitude: CLLocationDegrees(lat), longitude: CLLocationDegrees(long)), animated: true)
