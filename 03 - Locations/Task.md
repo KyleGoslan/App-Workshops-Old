@@ -114,14 +114,14 @@ At this point you should be able to move your sliders around and see the values 
 ####Adding A Map
 
 ```swift
-myMap.setCenterCoordinate(CLLocationCoordinate2D(latitude: CLLocationDegrees(lat), longitude: CLLocationDegrees(long)), animated: true)
+mapView.setCenterCoordinate(CLLocationCoordinate2D(latitude: CLLocationDegrees(lat), longitude: CLLocationDegrees(long)), animated: true)
 ```
 
 ```swift 
 let annotation = MKPointAnnotation()
-        annotation.coordinate = CLLocationCoordinate2DMake(CLLocationDegrees(lat), CLLocationDegrees(long))
-        annotation.title = "Hey!"
-        mapView.addAnnotation(annotation)
-        mapView.selectAnnotation(annotation, animated: true)
+annotation.coordinate = CLLocationCoordinate2DMake(CLLocationDegrees(lat), CLLocationDegrees(long))
+annotation.title = "Hey!"
+mapView.addAnnotation(annotation)
+mapView.selectAnnotation(annotation, animated: true)
 ```
 
