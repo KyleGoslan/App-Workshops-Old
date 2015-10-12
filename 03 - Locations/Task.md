@@ -1,3 +1,6 @@
+##Task
+
+####Setup The UI
 First drag out two sliders and two labels onto your storyboard, One pair for each latitude and longitude. 
 
 Latitude runs from -90 to 90. So select the slider and in attributes inspector, you can set the minimum and maximum values (I actually set mine to one less so -79 and 79). You can do exactly the same for the longitude slider, but -180 to 180 (again I did one less).
@@ -39,6 +42,13 @@ The first line is creating a `CLLocation` object. Most simply, this is just an o
 
 
 ####Reverse Geocode Function
+Where you create your `lat` and `long` variables go and create a `CLGeocoder` object as well:
+
+```swift
+var geocoder = CLGeocoder()
+```
+
+The finished `reverseGeocode` function looks like this:
 
 ```swift 
 func reverseGeocode(location: CLLocation) {
@@ -62,5 +72,7 @@ func reverseGeocode(location: CLLocation) {
     }
 }
 ```
+
+At this point you should be able to move your sliders around and see the values represented in your labels. When you press your button, provided you've landed on a country you should see that country name output in your console. 
 
 

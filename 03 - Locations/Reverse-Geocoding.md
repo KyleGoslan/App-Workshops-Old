@@ -43,7 +43,7 @@ geocoder.reverseGeocodeLocation(location, completionHandler: {(placemarks, error
 })
 ```
 
-####One Georequest At A Time
+####One Geocode Request At A Time
 
 Whenever perform the method to geocode, this is processed on a server provided by the good folks over at Apple. It's free to do and we can do it as often as we need...within reason. Ideally we should only be sending one geocode at a time. This is to ensure that the server can get back to us quickly, and that we're not performing unnecessary requests constantly. Conveniently, our `CLGeocoder` has a boolean (true/false) property on it called `geocoding`. So we can find out if we're currently processing a request by doing something simple like this:
 
