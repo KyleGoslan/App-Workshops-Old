@@ -3,6 +3,8 @@
 ####Setup The UI
 First drag out two sliders and two labels onto your storyboard, One pair for each latitude and longitude. 
 
+[sliders]: https://github.com/KyleGoslan/App-Workshops/blob/master/images/storyboard-sliders.png
+
 Latitude runs from -90 to 90. So select the slider and in attributes inspector, you can set the minimum and maximum values (I actually set mine to one less so -79 and 79). You can do exactly the same for the longitude slider, but -180 to 180 (again I did one less).
 
 Were going to change the text of the labels to match the value of the slider, so we'll need to set up IBOutlets for each of them. Select your view controller in the storyboard and switch to the assistant editor (where we can see the storyboard and the code to go with it). Ctrl click and drag from your labels to create your outlets, something like below. 
@@ -22,6 +24,8 @@ var long:Float = 0.0
 Here we have to cast them as the type of `Float` as swift will default a decimal number to a `Double`. However the value we get out of our slider is a float, so we need our properties to be the same. I'm also giving them an initial value of 0. 
 
 We need to get the values out of our sliders, so set up IBActions for each of them. Make sure you set the arguments to sender. I set the relevant property that we just set up to the value from the slider, and then use string interpolation to set the labels text value to that value. This is for my latitude slider, you should be able to figure out the other one, which is virtually identical. 
+
+[sliders-actions]: https://github.com/KyleGoslan/App-Workshops/blob/master/images/connecting-sliders.png
 
 ```swift
 @IBAction func latSlider(sender: UISlider) {
