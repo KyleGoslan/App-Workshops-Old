@@ -94,7 +94,7 @@ func reverseGeocode(location: CLLocation) {
                 return
             }
             if placemarks!.count > 0 {
-                if let placemark = placemarks!.first as? CLPlacemark {
+                if let placemark = placemarks!.first {
                     print(placemark.country)
                 }
             } else {
