@@ -4,7 +4,7 @@
 + [Reverse Geocoding](https://github.com/KyleGoslan/App-Workshops/blob/master/03%20-%20Locations/Reverse-Geocoding.md)	
 + [Placemarks](https://github.com/KyleGoslan/App-Workshops/blob/master/03%20-%20Locations/Placemarks.md)  
 + [Task](https://github.com/KyleGoslan/App-Workshops/blob/master/03%20-%20Locations/Task.md)  
-+ [Finished Demo](https://github.com/KyleGoslan/App-Workshops/tree/master/03%20-%20Locations/Demo)  
++ [Finished Demo](https://github.com/KyleGoslan/App-Workshops/blob/master/03%20-%20Locations/Demo.zip)  
 
 ####Workshop Objectives
 + Introduction to `CLLocation`, `CLGeocoder` and `CLPlacemark` objects.	
