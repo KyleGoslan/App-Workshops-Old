@@ -1,7 +1,8 @@
 ##User Locations
 
 ####Contents
-+ [Asking Permission To Use Device Location](https://github.com/KyleGoslan/App-Workshops/blob/master/)	
++ [Asking Permission To Use Device Location](https://github.com/KyleGoslan/App-Workshops/blob/master/04%20-%20User%20Location/Permission.md)	
++ [Getting A Location](https://github.com/KyleGoslan/App-Workshops/blob/master/04%20-%20User%20Location/Getting%20A%20Location.md)	
 
 ####Workshop Objectives
 + Look at getting a users location.
