@@ -1,0 +1,16 @@
+##User Locations
+
+####Contents
++ []()
+
+####Workshop Objectives
++ Look at getting a users location.
++ Request permission to use a device location.
++ Working with location manager objects.
+
+
+####Summary
+Last session we had a brief overview of working with `CLLocation` and `CLGeocoder` objects. We also created `MKAnnotation` objects (the pins on our map) and explored some of the simple thinks we can do with out map view. 
+
+
+
