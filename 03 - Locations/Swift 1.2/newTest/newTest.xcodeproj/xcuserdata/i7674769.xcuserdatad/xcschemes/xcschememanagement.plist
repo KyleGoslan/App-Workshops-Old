@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>gpsTest.xcscheme</key>
+		<key>newTest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>F20EAFCE1BCBA41800274AC4</key>
+		<key>064953CD1BCBD98F0084C8D2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F20EAFE31BCBA41800274AC4</key>
+		<key>064953E21BCBD98F0084C8D2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

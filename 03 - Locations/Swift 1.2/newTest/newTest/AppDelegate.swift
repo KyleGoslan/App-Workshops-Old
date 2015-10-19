@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  gpsTest
+//  newTest
 //
-//  Created by Abigail Norris (i7696586) on 12/10/2015.
-//  Copyright (c) 2015 Abigail Norris (i7696586). All rights reserved.
+//  Created by Rebecca Hughes (i7674769) on 12/10/2015.
+//  Copyright (c) 2015 Rebecca Hughes (i7674769). All rights reserved.
 //
 
 import UIKit
