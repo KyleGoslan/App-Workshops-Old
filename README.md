@@ -7,6 +7,8 @@ I've put together this repo as a resource for you to be able to review what we'v
 + [02 - Delegates](https://github.com/KyleGoslan/App-Workshops/tree/master/02%20-%20Delegates)	
 + [03 - Locations](https://github.com/KyleGoslan/App-Workshops/tree/master/03%20-%20Locations)  
 + [04 - User Location](https://github.com/KyleGoslan/App-Workshops/tree/master/04%20-%20User%20Location)	
++ [05 - Regions](https://github.com/KyleGoslan/App-Workshops/tree/master/05%20-%20Regions)	
+
 
 ####Why GitHub?
 I've chosen to do it in the format for several reasons:

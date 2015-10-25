@@ -1,7 +1,7 @@
 ##Regions
 
 ####Contents
-+ [Simulating Custom Locations](https://github.com/KyleGoslan/App-Workshops/blob/master/04%20-%20User%20Location/Permission.md)	
++ [Simulating Custom Locations](https://github.com/KyleGoslan/App-Workshops/blob/master/05%20-%20Regions/Simulating%20Custom%20Locations.md)	
 + [Setting Regions](https://github.com/KyleGoslan/App-Workshops/blob/master/04%20-%20User%20Location/Getting%20A%20Location.md)	
 
 ####Workshop Objectives
