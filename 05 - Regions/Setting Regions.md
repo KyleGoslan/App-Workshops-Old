@@ -23,7 +23,7 @@ We now need to set up our `CLCircularRegion` object (so we also need a location 
 
 ```swift
 let bournemouthPier = CLLocationCoordinate2D(latitude: 50.716098, longitude: -1.875780)
-let boscomePierRegion = CLCircularRegion(center: boscombePier, radius: 100, identifier: "Boscome Pier")
+let bournemouthPierRegion = CLCircularRegion(center: boscombePier, radius: 100, identifier: "Boscome Pier")
 ```
 
 Once we have our region we can ask our `locationManager` to start monitoring for it like this:
