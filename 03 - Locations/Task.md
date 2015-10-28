@@ -60,30 +60,6 @@ var geocoder = CLGeocoder()
 
 The finished `reverseGeocode` function looks like this:
 
-#####Swift 1.2 (Currently in labs)
-```swift 
-func reverseGeocode(location: CLLocation) {
-    if !geocoder.geocoding {
-        geocoder.reverseGeocodeLocation(location, completionHandler: {(placemarks, error) -> Void in
-            if error != nil {
-                print("Reverse geocoder failed with error" + error!.localizedDescription)
-                return
-            }
-            if placemarks!.count > 0 {
-                if let placemark = placemarks!.first as? CLPlacemark {
-                    print(placemark.country)
-                }
-            } else {
-                print("Problem with the data received from geocoder")
-            }
-        })
-    } else {
-        print("Geocoder is already geocoding")
-        return
-    }
-}
-```
-
 #####Swift 2.0
 ```swift 
 func reverseGeocode(location: CLLocation) {
