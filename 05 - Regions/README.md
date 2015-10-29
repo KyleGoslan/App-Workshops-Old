@@ -9,7 +9,6 @@
 + Set up regions. 
 + Get notified when a user enters or leaves a region. 
 
-
 ####Summary
 So far we've seen how we can get location data, and a whole lot of other information (speed, accuracy etc) for a user. We also looked at calculating distance between two points (our location and a marker we put on the map). We could easily use this to work out this method to work out if a user is within a certain distance from somewhere. 
 
