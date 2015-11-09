@@ -44,5 +44,3 @@ With the introduction of iOS9 Apple decided that by default none https network r
 ```
 
 **Add the new key just inside the last two </dict> and </plist> tags of the file.**
-
-####Demo Open Weather API Key
