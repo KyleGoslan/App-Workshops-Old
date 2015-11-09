@@ -52,7 +52,7 @@ In-between these lines is where we list the libraries that we want to use, for e
 
 ```
 target 'YOUR PROJECT' do
-	pod 'Alamofire'
+	pod 'AlamoFire'
 	pod 'SwiftyJSON'
 end
 ```
