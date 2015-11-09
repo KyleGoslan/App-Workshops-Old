@@ -3,7 +3,6 @@
 ####Contents
 + [CocoaPods](https://github.com/KyleGoslan/App-Workshops/blob/master/06%20-%20CocoaPods/CocoaPods.md)	
 + [AlamoFire](https://github.com/KyleGoslan/App-Workshops/blob/master/06%20-%20CocoaPods/AlamoFire.md)
-+ [SwiftyJSON](https://github.com/KyleGoslan/App-Workshops/blob/master/06%20-%20CocoaPods/SwiftyJSON.md)	
 
 ####Workshop Objectives
 + Introduce the concept of dependancies. 
