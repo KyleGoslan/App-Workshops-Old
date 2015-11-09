@@ -1,4 +1,8 @@
-##What is a dependancy manager?
+##CocoaPods
+
++ [CocoaPods Site](https://cocoapods.org)	
+
+####What is a dependancy manager?
 As projects grow you might want to use third party libraries to handle tasks more efficiently. You may even make changes that mean you no longer require a library that you once did. It would be time consuming to manually add and remove these to our projects. This is the point of a dependancy manager. We can **manage** all the required third party libraries in one place. When we're done listing the libraries that we want to use, we ask the dependancy manager to do and get them on our behalf. 
 
 It'll download and include (or remove) them in our project as needed. 
