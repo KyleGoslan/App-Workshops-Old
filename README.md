@@ -10,6 +10,9 @@ I've put together this repo as a resource for you to be able to review what we'v
 + [05 - Regions](https://github.com/KyleGoslan/App-Workshops/tree/master/05%20-%20Regions)	
 + [06 - CocoaPods](https://github.com/KyleGoslan/App-Workshops/tree/master/06%20-%20CocoaPods)	
 
+####Tips
++ [Tips](https://github.com/KyleGoslan/App-Workshops/blob/master/Tips.md) 
+
 ####Why GitHub?
 I've chosen to do it in the format for several reasons:
 + It gets you on github.
