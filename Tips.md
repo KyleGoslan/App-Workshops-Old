@@ -1,6 +1,6 @@
 ## Tips
 
-I've put together 
+I've put together a list of common problems and just general advice that might help. 
 
 + Use GitHub	
 I've banged on about this for ages, but I'd still only say around 20% of you are actually using version control in your projects. Using version control makes even more sense when you're in an unfamiliar environment. It's easy to break stuff and not know what you've done. Version control stops this being an issue, and with your projects on GitHub it also makes it a lot easier for me to assist you when you need it. 
